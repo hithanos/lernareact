@@ -49,9 +49,9 @@ const webpackConfig = (env) => ({
       "process.env.VERSION": JSON.stringify(require("./package.json").version),
     }),
     new ForkTsCheckerWebpackPlugin({
-      eslint: {
-        files: "./src/**/*.{ts,tsx,js,jsx}", // required - same as command "eslint ./src/**/*.{ts,tsx,js,jsx} --ext .ts,.tsx,.js,.jsx"
-      },
+      // eslint: {
+      //   files: "./src/**/*.{ts,tsx,js,jsx}", // required - same as command "eslint ./src/**/*.{ts,tsx,js,jsx} --ext .ts,.tsx,.js,.jsx"
+      // },
     }),
   ],
 });
