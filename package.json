@@ -2,6 +2,8 @@
   "name": "root",
   "private": true,
   "version": "1.0.0",
+  "hoist": true,
+  "stream": true,
   "devDependencies": {
     "lerna": "^4.0.0"
   }
